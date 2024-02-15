@@ -1,0 +1,40 @@
+目前可用的api如下：
+system.registTable                                          注册表，里面所有值可以随意调用
+system.mdsc.Core.MDSCInstaller.run()           安装程序
+system.mdsc.Core.MDSCore.run()                  控制台&登录
+
+控制台Mash：
+system.mdsc.mash.__init__()                            直接运行控制台
+system.mdsc.mash.username                          用户名
+system.mdsc.mash.opsym                               操作符号
+
+
+工具类：
+system.mdsc.Core.ToolBox                              工具箱
+                                clear()                              清屏
+                                waitkey()                          等待输入
+                                writeto(text,path)            写到文件（覆盖）
+                                addto(text,path)              向文件中追加
+                                readfile(path)                  读取文件
+
+system.mdsc.Core.Encrypter                           加密器
+                                encB64str(strarry:list)       将数组转换为Base64字符串
+                                decB64str(strf:str)             将encB64str生成的字符串转换回数组
+
+软件编写教程：
+如果需要使用系统工具类，引用 lib.Core
+
+
+使用手册：
+            echo        在屏幕上打印字符串
+            sof           执行任意可执行文件
+            sysver      显示系统版本
+            exit          退出MayDOS
+            del           删除文件
+            cat           读取文件并显示
+            mplay      播放音乐
+            clear         清屏
+            cuser        创建新用户
+            password 修改用户的密码
+            logout      登出MayDOS
+            直接输入将会执行bin和app目录下的文件

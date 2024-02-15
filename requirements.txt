@@ -1,0 +1,5 @@
+pydub
+numpy
+playsound
+contextlib
+wave
