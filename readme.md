@@ -1,7 +1,7 @@
 # MayDOS Community Edition [mdsc]
 本版本重写了MayDOS大部分函数，对部分功能进行了删减，后续会进行整合  
 
--使用手册：
+-使用手册：  
 --           echo        在屏幕上打印字符串  
 --            sof           执行任意可执行文件  
 --           sysver      显示系统版本  
@@ -15,6 +15,6 @@
 --            logout      登出MayDOS  
 --            直接输入将会执行bin和app目录下的文件   
   
->更新日志
--1.0dev-alpha
---修复已知问题
+>更新日志  
+>-1.0dev-alpha
+--修复已知问题  
